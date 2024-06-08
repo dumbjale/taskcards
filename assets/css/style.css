@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-color: grey;
+}
+.box{
+    padding: 90px;
+}
+
+.card{
+    width: 170px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+
+.card .card-header{
+    width: 100%;
+    height: 130px;
+}
+.card-header{
+    position: relative;
+}
+
+.card .card-header img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.card .card-header .like{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+font-size: 20px;
+color: white;
+}
+.card .card-header .like:hover{
+    color:blue ;
+}
+.card .card-header .icon {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgb(255, 249, 249);
+    border-radius: 5px;
+   
+}
+
+
+.card .card-header .icon .second-icon{
+    color: red;
+}
+.card .card-header .icon .first-icon{
+    color: orange;
+}
+.card .card-header .icon:hover{
+    color: blue;
+}
+
+.card .card-header p{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    background-color: rgb(102, 102, 235);
+    border-radius: 5px;
+    
+
+}
+
+.card-body{
+    position: relative;
+    width: 100%;
+    height: 120px;
+}
+
+
+.card .card-body .price {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    padding: 2px;
+}
+.card .card-body .first-p{
+    font-weight: bolder;
+    padding: 1px;
+}
+
+.card .card-body  .date {
+    position: absolute;
+    bottom: 35px;
+    left: 7px;
+    color: grey;
+    font-size: 15px;
+    font-weight: lighter;
+}
