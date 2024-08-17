@@ -17,7 +17,8 @@ body{
     height: 250px;
     background-color: white;
     border-radius: 10px;
-    
+    display: inline-block;
+    margin: 50px;
 }
 
 
@@ -65,9 +66,9 @@ color: white;
     color: blue;
 }
 
-.card .card-header p{
+.card .card-header  p{
     position: absolute;
-    left: 5px;
+    left:  5px;
     bottom: 5px;
     background-color: rgb(102, 102, 235);
     border-radius: 5px;
@@ -82,21 +83,25 @@ color: white;
 }
 
 
-.card .card-body .price {
+.card .card-body .container .price {
     position: absolute;
     top: 10px;
     left: 5px;
-    padding: 2px;
+    padding: 7px;
 }
-.card .card-body .first-p{
+ .card .card-body .container .price{
     font-weight: bolder;
     padding: 1px;
 }
+.card .card-body .container .price .p2{
+    font-weight: normal;
+    padding: 1px;
+}
 
-.card .card-body  .date {
+.card .card-body .container .date {
     position: absolute;
     bottom: 35px;
-    left: 7px;
+    left: 13px;
     color: grey;
     font-size: 15px;
     font-weight: lighter;
